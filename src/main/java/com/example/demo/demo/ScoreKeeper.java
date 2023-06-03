@@ -11,7 +11,6 @@ public class ScoreKeeper {
     };
 
     public String getScore() {
-
         return String.format("%03d:%03d", scoreTeam1, scoreTeam2);
 
     }
@@ -20,14 +19,24 @@ public class ScoreKeeper {
 
     }
     public void scoreTeam12() {
-
         scoreTeam1 += 2;
-
     }
 
     public void scoreTeam13() {
-
         scoreTeam1 += 3;
+
+    }
+
+    public void scoreTeam21() {
+        scoreTeam2 += 1;
+
+    }
+    public void scoreTeam22() {
+        scoreTeam2 += 2;
+    }
+
+    public void scoreTeam23() {
+        scoreTeam2 += 3;
 
     }
 
