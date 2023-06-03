@@ -16,43 +16,26 @@ public class ScoreKeeperTest {
         scoreKeeper = new ScoreKeeper();
 
     }
-
     @Test
-
     public void testInitalScore() {
 
         scoreKeeper = new ScoreKeeper();
 
         assertEquals("000:000", scoreKeeper.getScore());
-
     }
-
     @Test
-
     public void testScoreTeam11() {
-
         scoreKeeper.scoreTeam11();
-
         assertEquals("001:000", scoreKeeper.getScore());
-
     }
-
     @Test
-
     public void testScoreTeam12() {
-
         scoreKeeper.scoreTeam12();
-
         assertEquals("002:000", scoreKeeper.getScore());
-
     }
-
     @Test
-
     public void testScoreTeam13() {
-
         scoreKeeper.scoreTeam13();
-
         assertEquals("003:000", scoreKeeper.getScore());
 
     }
